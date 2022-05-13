@@ -1,0 +1,24 @@
+{
+  "name": "expressjs-session-check",
+  "description": "This is a simple tool to check if your session variable is not null and redirect to the specified location.",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlesionVi/ExpressJS-Session-Check.git"
+  },
+  "keywords": [
+    "express",
+    "expressjs",
+    "pug",
+    "session"
+  ],
+  "author": "John Mendoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlesionVi/ExpressJS-Session-Check/issues"
+  },
+  "homepage": "https://github.com/AlesionVi/ExpressJS-Session-Check"
+}
