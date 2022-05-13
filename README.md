@@ -18,7 +18,7 @@ const sessionCheck = require('expressjs-session-check')
 
 router.get('/SessionTest', function(req, res, next) {
   user = req.session.user;
-  checkSignIn.checkSignIn(user,"/RedirectRoute");
+  sessionCheck.checkSignIn(user,"/RedirectRoute");
   res.render('Session/index',{title:"Session Test"})
 });
 ```
