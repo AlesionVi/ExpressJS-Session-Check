@@ -1,10 +1,10 @@
- module.exports = {
-  checkSignIn: function(session, route){
-    if(session){
-      return true;
-    }
-    else{
-      res.redirect(route);
-    }
-  },
+module.exports = checkSignIn
+
+function checkSignIn(session, route){
+  if(session){
+    return true;
+  }
+  else{
+    res.redirect(route);
+  }
 }

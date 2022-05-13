@@ -14,11 +14,11 @@ const sessionCheck = require('expressjs-session-check')
 
 How to use it in your code:
 ```javascript
-const sessionCheck = require('expressjs-session-check')
+const checkSignIn = require('expressjs-session-check');
 
 router.get('/SessionTest', function(req, res, next) {
   user = req.session.user;
-  sessionCheck.checkSignIn(user,"/RedirectRoute");
+  checkSignIn(user,"/RedirectRoute");
   res.render('Session/index',{title:"Session Test"})
 });
 ```
