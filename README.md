@@ -9,7 +9,7 @@ npm i expressjs-session-check
 ## Usage
 Specify the location of your views directory
 ```javascript
-const sessionCheck = require('expressjs-session-check')
+const checkSignIn = require('expressjs-session-check');
 ```
 
 How to use it in your code:

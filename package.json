@@ -1,7 +1,7 @@
 {
   "name": "expressjs-session-check",
   "description": "This is a simple tool to check if your session variable is not null and redirect to the specified location.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
